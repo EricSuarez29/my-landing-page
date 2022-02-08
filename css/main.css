@@ -1,0 +1,63 @@
+#row-main,
+#row-about,
+#row-tecnologies,
+#row-hobbies{
+    height: 100vh;
+}
+
+nav{
+    top: 650px;
+}
+
+h1{
+    font-size: 5rem;
+    margin: auto;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 12ch;
+    animation: typing 2s steps(12), blink .5s infinite step-end alternate;
+    overflow: hidden;
+}
+
+@keyframes typing {
+    from { width: 0}
+}
+
+@keyframes blink {
+    50% { border-color: transparent}
+}
+
+h2{
+    font-size: 4rem;
+}
+
+#row-about p{
+    font-size: 1.5rem !important;
+}
+
+#row-about img{
+    max-width: 300px;
+}
+
+.logo-social{
+    opacity: .5;
+    transition: opacity .4s ease;
+}
+
+.logo-social:hover{
+    opacity: .8;
+}
+
+.icon-top{
+    max-width: 2rem;
+}
+
+body::-webkit-scrollbar{
+    width: 8px;
+    background-color: #002b36;
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color: #fdf6e3;
+    border-radius: 5px;
+}
