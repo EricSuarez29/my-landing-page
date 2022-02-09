@@ -14,7 +14,7 @@ h1{
     margin: auto;
     border-right: 4px solid;
     width: 4ch;
-    animation: typing 2s steps(5), blink .5s infinite step-end alternate;
+    animation: typing 2s steps(4), blink .5s infinite step-end alternate;
     overflow: hidden;
 }
 
